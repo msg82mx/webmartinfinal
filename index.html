@@ -14,20 +14,215 @@
      
 </head>
 <body>
-    
-    <div class="container-fluid">
-        <div class="row">
-            <h1>Hola desde mi proyecto</h1>
 
+    
+
+    <div class="container-fuid">
+        <div class="row">
+
+            <!--Creamos un menu y entram,os a bootstrap y bucamos navbar...-->
+            <!--https://getbootstrap.com/docs/5.2/components/navbar/-->
+            <!--Pegamos el codigo del menu que cpiamos en bootstrap-->
+
+            <!--Inicia menu-->
+            <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+
+            <form class="d-flex" role="search">
+               <!--Aqui va boton y search-->
+
+               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Beneficios</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Servicios</a>
+                </li>
+  
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sobre nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contacto</a>
+                </li>
+              </ul>
+ 
+
+
+            </form> 
+          </div>
+        </div>
+      </nav>
+      </div> <!--Termina clase row del menu-->
+      <!--Fin de la barra de menu copiado de bootstrap-->
+
+      <!--Inicia contenido-->
+      <div class="row" id="contentBannerHome">
+        <div id="fondoBannerHome">
+            <div id="textoBannerHome">
+                <h1>Tag line</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, nostrum. Possimus aspernatur magni molestias reprehenderit quasi dolorem quas rem impedit quam aperiam harum culpa nobis exercitationem tempore, amet ut? Voluptas.</p>
+
+                <button type="button" class="btn btn-outline-secondary">WHATCH VIDEO</button>
+                <button class="btn btn-light">GET STARTED</button>
+
+            </div> <!--Fin contentBannerTexto-->
+        </div> <!--fondoBannerHome-->
+
+      </div> <!--Fin contentBannerHome-->
+
+
+
+
+      <div class="row" id ="contentBeneficios">
+        <h2>Principales beneficios</h2>
+        <p> Al ser fabricantes de maquina e importadores directos de fabrica de equipo de empacado y etiquetado, le podremos ofrecer la mejor solución que su proceso requiera al mejor precio y en su idioma.</p>
+
+        <div class="col-sm-3" class="contentBeneneficiosTexto">
+           <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus cum repudiandae itaque dolores quasi neque maiores repellendus odio ipsum illo, omnis quam obcaecati a optio praesentium non, qui laboriosam voluptatibus.</p> -->
+        </div>
+
+        <div class="col-sm-2" id="contentBeneneficiosTexto">
+          <img src="img/banderita.png">
+          <h6>Beneficio #1</h6>
+          <p>Somos una empresa orgullosamente mexicana que ofrece soluciones de llenado y envasado de productos semi liquidos y vicosos al mejor precio. </p>
+        </div> <!--Fin contentBeneficiosTexto-->
+
+        <div class="col-sm-2" id="contentBeneneficiosTexto">
+          <img src="img/estrellita.png">
+          <h6>Beneficio #2</h6>
+          <p>Hablamos tu idioma, y somos los unicos fabricantes de equipos de llenado  en America Latina  que ofrece la mejor tecnología al mejor precio</p>
+        </div> <!--Fin contentBeneficiosTexto-->
+
+        <div class="col-sm-2" id="contentBeneneficiosTexto">
+          <img src="img/palomita.png">
+          <h6>Beneficio #3</h6>
+          <p>Contamos con un número de soporte técnico y video conferencia en tiempo real, por si tuvieras una duda o comentario </p>
+        </div> <!--Fin contentBeneficiosTexto-->
+
+
+        <div class="col-sm-3" class="contentBeneneficiosTexto">
+         <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor hic officiis, similique pariatur vero aut, quidem culpa delectus corporis error ipsum vel recusandae explicabo voluptates quod earum eum consequuntur molestias!</p> -->
+        </div>
+
+        <br>
+      </div> <!--Fin beneficios-->
+
+
+      <div class="row" id="contentServicios">
+
+        <h2>Servicios</h2>
+        <p>Ofrecemos la venta  de equipo de llenado de maquinaria neumática para envasar, empacar, etiquetar y/o fabrica productos como alimentos, cosméticos, quimicos .</p>
+
+        <div class="col-sm-2" class="contentServiciosTexto">
+          <!-- <p> COL Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis unde nam voluptatum? Recusandae beatae consequuntur, neque, tempora quam at quia dolor quae adipisci ea, asperiores quis voluptas reprehenderit sunt! Quia?</p> -->
+        </div>
+
+        <div class="col-sm-8" class="contentServiciosTexto">
+           <b><p>Muestra carrusel de 3 servicios</p> </b>
+        </div>
+
+
+        <div class="col-sm-2" class="contentServiciosTexto">
+           <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis unde nam voluptatum? Recusandae beatae consequuntur, neque, tempora quam at quia dolor quae adipisci ea, asperiores quis voluptas reprehenderit sunt! Quia?</p> -->
+        </div>
+
+
+      </div> <!--Fin servicios-->
+
+
+
+
+      <div class="row" id="contentSobreNosotros">
+        <h1>Sobre nosotros</h1>
+        <!--dividimos el contenido en 2 columas vacias 4 llenas, 4 llenas, 2 vacias-->
+        
+        <div class="col-sm-2" id="contentSobreNosotrosTexto">
+          <!---Aqui no va nada va vacio-->
+          <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, qui? Provident consectetur eligendi ad quam quidem amet exercitationem perferendis iste, officia aut! Saepe commodi repellendus voluptatem aliquid ad sed natus?</p> -->
+        </div>
+
+        <div class="col-sm-4" id="contentSobreNosotrosTexto">
+           <b> <p>Somos una empresa localizada en la ciudad de Pachuca Hidalgo México,  fundada hace 10 años y nos especializamos en la fabricacion de  maáquinaria de funcionamiento neumática</p> </b>
+        </div>
+
+        <div class="col-sm-4" id="contentSobreNosotrosTexto">
+          <!--  <p>Aqui va una imagen</p> -->
+          <img src="img/LOGOILM.png"> </img>
+        </div>
+
+        <div class="col-sm-2" id="contentSobreNosotrosTexto">
+          <!--Aqui va vacio-->
+          <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium perferendis beatae explicabo modi, dignissimos corrupti maiores excepturi velit expedita adipisci. Tempore quod quisquam, eaque ipsam unde nostrum totam numquam facilis.</p> -->
+        </div>
+
+
+      </div> <!--Fin  contentSobreNosotros-->
             
 
+      <div class="row" id="contentSobreMiEmpresa">
+        <div class="col-sm-12" id="contentSobreMiEmpresaTexto">
+          <h2>Sobre nuestra empresa</h2>
+          <p>Nuestra empresa esta especializada en atendender las necesidades de pequeñas y medianas empresas ofreciendo soliciones que se adapten a su proceso industrial con el mejor precio del mercado y nos especializamos en aplicaciones semi automaticas y automáticas donde el numero de piezas producidas del día no excedan mas de 10,000 piezas o golpes por jornada de ocho horas como máximo. </p>
+          
+        </div>
+
+      </div> <!--Fin contentSobreMiEmpresa-->
+
+      <div class="row" id="contentContactanos">
+        <div class="col-sm-2" id="contentSobreNosotrosTexto">
+          <!-- <p> Aqui no va nada es una columa vacias</p> -->
+        </div>
+
+        <div class="col-sm-4" id="contentSobreNosotrosTexto">
+          <!-- <p> Aqui va el mapa</p> -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1873.3315126075!2d-98.751900012126!3d20.106368467430954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1a0ac8a128597%3A0x5495ffc6ef2ac47!2sBlvrd%20Javier%20Rojo%20G%C3%B3mez%2C%20Pachuca%20de%20Soto%2C%20Hgo.!5e0!3m2!1ses!2smx!4v1669269159169!5m2!1ses!2smx" width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <br> <br> 
+        </div>
+
+        <!-- <form action=""> --> 
+          <div class="col-sm-2" id="contentSobreNosotrosTexto"> 
+             <label for ="" id="labelnombre">Nombre</label> <br>
+             <input type="text" id="nombre"  placeholder="Nombre" required>  
+             
+             <label for ="" id="labeltelefono">Telefono</label> <br>
+             <input type="number" id="telefono" placeholder="Telefono" required> 
+          </div>
+
+          <div class="col-sm-3" id="contentSobreNosotrosTexto"> 
+              <label for ="" id="labelcorreo">Correo</label> <br>
+              <input type="email" id="correo"   placeholder="Email" required>   <br>
+
+              <label for ="" id="labelmensaje">Mensaje</label> <br>
+              <input type="text" id="mensaje"  placeholder="Mensaje" required> <br> <br>
+              <a class="btn btn-success" id="botonEnviar">Enviar.. </a>
+
+          </div>
+
+          <div class="col-sm-2" id="contentSobreNosotrosTexto">
+            <!-- <p> Aqui no va nada es una columa vacias</p> -->
+          </div>
+        <!-- </form> -->  <!--fin del form-->
+
+      </div> <!--Fin contentContactanos-->
 
 
 
+    </div> <!--Fin container fluid principal-->
 
 
-        </div> <!--Fin clase row-->
-    </div> <!--Fin a div container-fluid-->
+
 
 
 
@@ -47,7 +242,7 @@
     
     
      <!--Pegamos de bootstrap-->
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
     

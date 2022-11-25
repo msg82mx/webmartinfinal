@@ -1,0 +1,120 @@
+#contentBannerHome {
+ background-image: url('../img/fondoEjecutivo.webp');
+ background-position: center;
+ background-size: cover;
+ height: 100vh;
+
+}
+
+
+#fondoBannerHome {
+     height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 100px;
+}
+
+#textoBannerHome{
+    text-align: center;
+    color:white;
+    padding-top: 8%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.btn {
+    border-radius: 20px;
+    width: 200px
+}
+
+
+
+#contentBeneficios {
+
+background-color: white;
+text-align: center;
+width: 101.1%;
+height: 50vh;
+
+padding-top: 1%;
+padding-left: 20%;
+padding-right: 20%;
+
+
+}
+
+
+
+#contentBeneneficiosTexto {
+ background-color: white;
+ text-align: center;
+ color: black;
+
+
+}
+
+
+#contentServicios{
+ background-color: white;
+ text-align: center;
+ color:black;
+ width: 101.1%;
+height: 50vh;
+
+padding-top: 1%;
+padding-left: 20%;
+padding-right: 20%;
+
+
+}
+
+#contentSobreNosotros {
+ text-align: center;
+ background-color: white;
+ padding-left: 20%;
+ padding-top: 1%;
+ padding-right: 20%;
+ }
+
+ #contentSobreNosotrosTexto {
+text-align: center;
+background-color: white;
+padding-top: 1%;
+
+ }
+
+ #contentSobreMiEmpresa {
+text-align: center;
+
+background-color: white;
+padding-top: 2%;
+padding-left: 20%;
+padding-right: 20%;
+
+
+ }
+
+
+ #contentSobreMiEmpresaTexto {
+    padding-top: 2%;
+    text-align: center;
+    background-color: #393d42;
+    color: white;
+}
+
+
+
+#contentContactanos {
+    text-align: center;
+    background-color: white;
+    padding-left: 20%;
+    padding-top: 1%;
+    padding-right: 20%;
+    
+}
+
+#contentSobreNosotrosTexto {
+    padding-top: 1%;
+    text-align: left;
+    background-color: white;
+}
