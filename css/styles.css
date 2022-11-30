@@ -34,7 +34,7 @@
 background-color: white;
 text-align: center;
 width: 101.1%;
-height: 50vh;
+/*height: 50vh; ESTA LINEA NO VAAAA */ 
 
 padding-top: 1%;
 padding-left: 20%;
@@ -59,7 +59,7 @@ padding-right: 20%;
  text-align: center;
  color:black;
  width: 101.1%;
-height: 50vh;
+/*height: 50vh; */
 
 padding-top: 1%;
 padding-left: 20%;
@@ -67,6 +67,7 @@ padding-right: 20%;
 
 
 }
+
 
 #contentSobreNosotros {
  text-align: center;
@@ -115,6 +116,92 @@ padding-right: 20%;
 
 #contentSobreNosotrosTexto {
     padding-top: 1%;
-    text-align: left;
+    text-align: center;
     background-color: white;
+    /*border: solid rgb(207, 207, 207) 3px;
+    padding: 20px;
+    border-radius: 10px  */
+   /* padding-top: 80px;
+    margin-bottom: 80px; */
+   
+}
+
+
+.btnWhatsAPP {
+    position:fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 90px;
+    right: 50px;
+    background-color: chartreuse;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 20px;
+    z-index: 100; /*  este valor le dice que a las cosas estaticas o que este flotante*/
+                /* Si  hubira otra cosas flotante por debajo de este valor declararia
+                zindex.101, o z-index-102, o z-index-n es par aque no choquen los elemenotos f
+                fijos o flotante */
+
+}
+
+
+/*CArrusel o slider */
+
+  .owl-carousel .item {
+    height: 10rem;
+    background: #4DC7A0;
+    /*padding: 1rem; */
+  }
+  .owl-carousel .item h4 {
+    color: #FFF;
+    font-weight: 400;
+    margin-top: 0rem;
+   }
+
+#imgNosotros {
+    border-radius: 10px;
+
+}
+
+#contentFrase{
+
+    background-image: url('../img/fondo-frase.jpg');
+    background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   color: white;
+    padding: 6%;
+
+}
+
+#fondoFrase{
+    height: 100%;
+    width: 100%;
+   background-color: rgba(0, 0, 0, 0.7);
+
+}
+
+#contentContactanos{
+text-align: center;
+padding-top: 80px;
+margin-bottom: 80px;
+
+}
+
+#labelnombre {
+    text-align: left;
+}
+
+#contentFooter{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #a8a7a7;
+    color: #5d5a5a;
+}
+
+.textFooter a{
+    text-decoration:none;
+    color: #5d5a5a;
 }
