@@ -74,3 +74,59 @@ $('#botonEnviar').click(function(){
    })
  })
 
+
+
+
+//Inicia firebase
+
+//configuracion de firebase
+var config = {
+  authDomain: "app-web-martin-default-rtdb.firebaseio.com",
+  databaseURL: "https://app-web-martin-default-rtdb.firebaseio.com",
+  storageBucket: "app-web-martin-default-rtdb.appspot.com"
+}
+
+//Inicializo firebase
+firebase.initializeApp(config)
+
+$('#formContacto').submit(function(e){
+
+e.preventDefault();
+
+//Se genera in id aleatorio...
+var mensajeId = Math.floor((Math.random() * 123456676) + 20);
+
+//Valores del  formulario
+var var_nombre = $('#nombre').val()
+var var_email = $('#email').val()
+var var_telefono = $('#telefono').val()
+var var_mensaje = $('#mensaje').val()
+
+//Funcion agregar los datos a firebase
+ firebase.database().ref('mensajes/' + mensajeId).set({
+  nombre: var_nombre,
+  email: var_email,
+  telefono: var_telefono,
+  mensaje: var_mensaje,
+  id: mensajeId
+
+}, (error) => {
+  if (error) {
+    // The write failed...
+    alert('Error al enviar mensaje, favor de intentar mas tarde...')
+
+    console.log(error)
+
+  } else {
+    // Data saved successfully!
+    alert('Se mando todo de manera correcta')
+    //Limpiamos el formulario
+    $('#formContacto')[0].reset()
+  }
+});
+
+
+})  //fin de funciona submit
+
+
+

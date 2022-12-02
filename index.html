@@ -225,21 +225,21 @@
             
               <div class="col-md-6">
                 <!--inicia el formulario-->
-                  <form action="">
+                  <form action=""  id="formContacto">
                       <div class="mb-3">
-                        <input type="text" class="form-control" placeholder="Nombre" >
+                        <input type="text" class="form-control" placeholder="Nombre"  required id="nombre">
                       </div>
 
                       <div class="mb-3">
-                        <input type="email" class="form-control" placeholder="Correo">
+                        <input type="email" class="form-control" placeholder="Correo" required id="email">
                       </div>
     
                       <div class="mb-3">
-                        <input type="number" class="form-control" placeholder="Teléfono">
+                        <input type="number" class="form-control" placeholder="Telefono" requiered id="telefono">
                      </div>
       
                      <div class="mb-3">
-                        <textarea name="" id="" cols="30" rows="5" class="form-control" placeholder="Mensaje"></textarea>
+                        <textarea name=""  cols="30" rows="5" class="form-control" required placeholder="Mensaje" requiered id="mensaje"></textarea>
                      </div>
         
                      <div class="mb-3">
@@ -260,65 +260,54 @@
 
 
       <hr> <!--Crea una linea que separa cada seccion-->
-    
-<!-- inicia footer -->
+
+
+      <!-- inicia footer -->
 <div class="row" id="contentFooter">
   <footer>
       <div class="col-md-8 offset-md-2">
           <div class="row">
-                 <div class="col-md-3 textFooter">
-                   <a href="https://www.facebook.com">Facebook</a>
-                  </div>
-        
-                  <div class="col-md-3 textFooter">
-                   <a href="https://www.instagram.com">Instagram</a>
-                   </div>
-
-                  <div class="col-md-3 textFooter">
-                    <a href="https://www.youtube.com">Youtube</a>
-                  </div>
-              
-                  <div class="col-md-3 textFooter">
-                    <a href="https://www.google.com">Linkedin</a>
-                  </div>
-        </div> <!--Fin clas row-->
-
-
-                <div class="row">
+                    <div class="col-md-3 textFooter">
+                      <a href="#">Facebook</a>
+                    </div>
+  
+                    <div class="col-md-3 textFooter">
+                        <a href="#">Instagram</a>
+                    </div>
+  
+                    <div class="col-md-3 textFooter">
+                        <a href="#">Youtube</a>
+                    </div>
+                 
+                    <div class="col-md-3 textFooter">
+                      <a href="#">Linkedin</a>
+                    </div>
+            </div> <!--Fin clase row-->
+  
+  
+                  <div class="row">
                     <div class="col-md-12">
-                      <hr>
-                      <br>
-                      <br>
-                      <p>Boulevar Javier Rojom Gómez Pachuca Hidalgo</p>
-                      <p>© 2022 i42k sa de cv </p>
-                    </div> <!--Fin class col-md-12-->
-                </div> <!--Fin class row-->
-
-    </div> <!-- col-md-8 offset-md-2-->
+                        <hr>
+                        <br>
+                        <br>
+                        <p>1717 Harrison St, San Francisco, CA 94103, USA</p>
+                        <p>© 2023 Your Company.  All rights reserved.</p>
+                      </div> <!--fin clase col-md-12-->
+                  </div> <!--Fin clase row-->
+  
+  
+      </div> <!--Fin clase col-md-8 offset-md-2-->
   </footer>
-
-</div> <!--Termina contentFooter -->
+  
+  
+</div> <!-- contentFooter -->
 <!-- termina footer -->
 
 
 
+</div> <!--Fin container fluid principal-->
 
 
-
-
-    </div> <!--Fin container fluid principal-->
-
-
-
-
-
-
-
-
-
-
-
-    
 
 
 
@@ -327,24 +316,23 @@
     <!--Pegamos el script de jquery para poderlo  usar jquery en el scripts.js-->
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     
-    
-     <!--Pegamos de bootstrap-->
+    <!--Pegamos de bootstrap-->
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
-    
-    
-
+        
      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.min.css"/>
 
-
-
-
+    <!-- import firebase --> 
+    <script src="https://www.gstatic.com/firebasejs/3.6.1/firebase.js"></script>
 
      <!--Mandamos llamad nuestro  archivo jS propio-->
      <script src="js/scripts.js"></script>
 
 </body>
 </html>
+
+<!--Estudiar el repósitorios del inge-->
+<!--https://github.com/CarlosRH7/app-web -->
